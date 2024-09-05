@@ -1,9 +1,11 @@
 # Gradle files
 .gradle/
+.gradle
 build/
 
 # Local configuration file (sdk path, etc)
 local.properties
+/local.properties
 
 # Log/OS Files
 *.log
@@ -11,7 +13,9 @@ local.properties
 # Android Studio generated files and folders
 captures/
 .externalNativeBuild/
+.externalNativeBuild
 .cxx/
+.cxx
 *.apk
 output.json
 
@@ -31,3 +35,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+.DS_Store
+
